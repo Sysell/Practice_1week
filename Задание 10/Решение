@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            border: 7px solid lightgrey;
+        }
+        header p {
+            font-size: 30px;
+            color: rgb(66, 66, 66);
+        }
+        header a {
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(66, 66, 66);
+        }
+        header img {
+            width: 100px;
+            height: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h1 {
+            background-color: lightgray;
+            color: rgb(66, 66, 66);
+            padding: 10px;
+            text-align: center;
+            font-size: 50px;
+        }
+        footer p {
+            background-color: white;
+            padding: 5px;
+            border: 5px solid lightgray;
+            font-size: 20px;
+        }
+        nav {
+            border: 2px solid lightgray;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        nav a {
+            margin: 20px;
+            font-size: 20px;
+            text-decoration: none;
+            margin-left: 220px;
+            color: rgb(66, 66, 66);
+        }
+        select {
+            margin: 20px;
+            padding: 10px;
+            border: 2px solid lightgray;
+            font-size: 20px;
+        }
+        select option {
+            color: rgb(0, 0, 0);
+        }
+        .product_p {
+            background-color: lightgray;
+            font-size: 30px;
+        }
+        .product_image {
+            width: 50px;
+            height: 50px;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        h2 {
+            color: blue;
+            font-size: 40px;
+            margin-top: 50px;
+        }
+        .exer_p {
+            font-size: 20px;
+            color: rgb(66, 66, 66);
+        }
+        .exer_a {
+            border: 2px solid navy;
+            padding: 10px;
+            text-decoration: none;
+            color: navy;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><img src="https://avatars.mds.yandex.net/i?id=b945921e1ef3fb9ca80e199e05df7d38_l-8183905-images-thumbs&n=13" style="margin-right: 20px;">Внимание! Сезонные скидки 40% <a href="#season_special" style="margin-left: 40px; border: 2px solid lightgray; padding: 5px; padding-left: 20px; padding-right: 20px;">Подробнее</a></p>
+    </header>
+    <nav>
+        <a href="#produts">Продукция</a>
+        <a href="#how_to_buy">Как купить?</a>
+        <a href="#wholesale">Оптом</a>
+        <a href="#about">О компании</a>
+    </nav>
+    <h1>Fantastic Party</h1>
+    <p style="font-size: 25px; text-align: center;">
+        Выберите город для доставки:
+        <select>
+            <option>Барнаул</option>
+            <option>Бердск</option>
+            <option>Бийск</option>
+            <option>Новосибирск</option>
+        </select>
+    </p>
+    <div class="product_p" id="produts">
+        <img src="https://firmlist.ru/static/images/categories/firecracker.svg" class="product_image">
+        <p style="margin: 20px; padding-bottom: 20px;">Хлопушки</p>
+    </div>
+        <div class="product_p">
+        <img src="https://media.discordapp.net/attachments/594529876086882309/1375900319682400346/Screenshot_6-Photoroom.png?ex=68335e87&is=68320d07&hm=2326dbfd44f3ebed9684d1d0c42dfcfabb727554ca595e87927c4c7a3b157c20&=&format=webp&quality=lossless" class="product_image">
+        <p style="margin: 20px; padding-bottom: 20px;">Петарды</p>
+    </div>
+        <div class="product_p">
+        <img src="https://ironteksolutions.com/wp-content/uploads/2019/09/fireworks.png" class="product_image">
+        <p style="margin: 20px; padding-bottom: 20px;">Фонтаны</p>
+    </div>
+        <div class="product_p">
+        <img src="https://definitelyknow.com/wp-content/uploads/2017/07/0-65.png" class="product_image">
+        <p style="margin: 20px; padding-bottom: 20px;">Фестивальные шары</p>
+    </div>
+    <div>
+        <h2 id="season_special">Сезонное предложение</h2>
+        <p class="exer_p">С 5 декабря по 5 марта действует предложение: скидка на всю продукцию 40%.</p>
+        <p class="exer_p"><i>Спешите купить праздник выгодно!</i></p>
+        <img src="https://cdn.culture.ru/images/64a6a0b4-d3a2-5e0a-9e82-46126d821a9b" width="700px" style="border: 2px solid lightblue; border-radius: 20px;">
+    </div>
+    <div>
+        <h2 id="how_to_buy">Как приобрести?</h2>
+        <a href="#contacts" class="exer_a">Контакты</a>
+        <p class="exer_p">Вы можете сделать заказ по телефону или приобрести товары в магазине.</p>
+        <p class="exer_p">В магазине вас ждет подробный рассказ о нашей продукции.</p>
+        <p class="exer_p">При посещении магазина можно заказать доставку на дом/в офис.</p>
+        <p class="exer_p">Вы также можете по телефону сделать предзаказ для резервирования товаров в магазине</p>
+        <img src="https://www.liw74.ru/sites/default/files/ae2055ca565b59a0a540c72c2827fd3e.png" width="300px">
+    </div>
+    <div>
+        <h2 id="wholesale">Оптом</h2>
+        <p class="exer_p">От 100 000₽ - Cкидка 45%</p>
+        <p class="exer_p">От 200 000₽ - Скидка 50%.</p>
+        <img src="https://avatars.mds.yandex.net/i?id=30609caa1c47c03bb46ab9bab116ecfa832a34ef-7069324-images-thumbs&n=13" width="200px">
+    </div>
+    <div>
+        <h2 id="about">О компании</h2>
+        <p>Наша история началась с магазина, открывшегося в 2005 году. Тогда мы предлагали только хлопушки.</p>
+        <p>В 2015 году у нас появился сайт, а ассортимент пополнился новыми видами товаров.</p>
+        <img src="https://completemusicupdate.com/content/images/size/w1200/2024/03/Pathways.png" width="200px">
+    </div>
+    <button class="exer_a" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" style="margin-top: 10px;">Наверх</button>
+    <footer>
+        <p id="contacts"><b>Контакты</b></p>
+        <p><i>Адрес: г. Звёздный, пр-кт. Экспериментальный, 21</i></p>
+        <p>Тел.: 2502-3716</p>
+    </footer>
+</body>
+</html>
